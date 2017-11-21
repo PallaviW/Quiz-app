@@ -1,0 +1,41 @@
+body{
+	background-color: #aad8aa !important;
+}
+
+main{
+	margin-top: 80px;
+}
+.hide-div{
+	display: none;
+}
+
+.show-div{
+	display: block;
+}
+header, .quiz-app{
+	text-align: center;
+}
+.quiz-app{
+
+	font-family: fantasy;
+}
+header{
+	padding-bottom: 30px;
+	font-family:'Passion One', cursive;
+	font-size: 40px;
+}
+.js-start-msg, .question-data,.options-data,.correct-ans,.wrong-ans,.cheers-msg,.quiz-result{
+	display: block;
+}
+.correct-ans{
+	font-weight: bold;
+}
+.js-start{
+	margin-top:  20px;
+	margin-bottom: 20px;
+}
+.wrong-ans{
+	color:red;
+	font-weight: 600;
+    font-size: 30px;
+}
