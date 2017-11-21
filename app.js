@@ -119,6 +119,10 @@ function updateItem(Questions, itemIndex,newIndex){
 $('.js-quiz-question').on('click','.js-submit',function(event){
 	
 	var userAns = $('[name="choice"]:checked').val();
+	if (!userAns) {
+		alert("Must check some option!");
+		return false;
+	}
 	var currentQuesNum = $('.js-quesNum').text();
 	var correctQuesAns = getCorrectAns(Questions,currentQuesNum);
 	var feedback;
