@@ -1,9 +1,14 @@
+* {
+	box-sizing: border-box;
+}
 body{
 	background-color: #aad8aa !important;
 }
 
 main{
-	margin-top: 80px;
+	padding-top: 60px;
+	max-width: 960px;
+	margin: 0 auto;
 }
 .hide-div{
 	display: none;
@@ -11,9 +16,6 @@ main{
 
 .show-div{
 	display: block;
-}
-header, .quiz-app{
-	text-align: center;
 }
 .quiz-app{
 
